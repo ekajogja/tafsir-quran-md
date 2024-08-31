@@ -18,4 +18,4 @@ Converted from [qortoba/tafsirs](https://github.com/qortoba/tafsirs)
 
 A Vue single page application for displaying tafsirs.
 
-<https://mahadsiber.my.id/tafsir>
+<https://mahadsiber.my.id/tafsir.html>
