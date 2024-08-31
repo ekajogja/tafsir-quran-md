@@ -12,7 +12,7 @@ export default {
       this.$emit('selectSurah', surah)
     },
     getButtonClass(surah) {
-      const colors = ['btn-light', 'btn-secondary', 'btn-info', 'btn-warning']
+      const colors = ['btn-success', 'btn-warning', 'btn-info', 'btn-dark']
       return colors[(surah - 1) % 4]
     }
   }
