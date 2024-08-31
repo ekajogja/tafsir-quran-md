@@ -1,3 +1,31 @@
-src/
-
+# Datasource
+xml/
 *.py
+
+# Vue
+node_modules/
+dist/
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+
+# OS-specific files
+.DS_Store
+
+# Editor temporary files
+*.swp
+*.swo
+*.tmp
+
+# Build artifacts
+*.lock
+
+# IDE settings
+.vscode/
+.idea/
+
+# Local development files
+*.local
