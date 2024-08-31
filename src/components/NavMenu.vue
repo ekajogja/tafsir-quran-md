@@ -29,5 +29,21 @@ export default {
   background-color: white; /* Adjust as needed */
   z-index: 1000; /* Ensure it stays on top */
   padding: 10px 0; /* Add padding for better appearance */
+  flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+}
+
+.nav-menu button {
+  flex: 1 1 auto; /* Allow buttons to grow and shrink */
+  margin: 5px; /* Adjust margin for better spacing on smaller screens */
+}
+
+@media (max-width: 600px) {
+  .nav-menu {
+    flex-direction: column; /* Stack buttons vertically on smaller screens */
+  }
+
+  .nav-menu button {
+    width: 100%; /* Make buttons take full width on smaller screens */
+  }
 }
 </style>
