@@ -40,6 +40,7 @@ export default {
 @media (max-width: 600px) {
   .nav-menu {
     flex-direction: column; /* Stack buttons vertically on smaller screens */
+    position: static; /* Remove sticky positioning on smaller screens */
   }
 
   .nav-menu button {
