@@ -30,11 +30,12 @@ export default {
   z-index: 1000; /* Ensure it stays on top */
   padding: 10px 0; /* Add padding for better appearance */
   flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+  gap: 5px; /* Add gap between buttons */
 }
 
 .nav-menu button {
   flex: 1 1 auto; /* Allow buttons to grow and shrink */
-  margin: 5px; /* Adjust margin for better spacing on smaller screens */
+  margin: 0; /* Remove margin for better spacing on smaller screens */
 }
 
 @media (max-width: 600px) {
