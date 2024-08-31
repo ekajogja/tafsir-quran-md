@@ -1,9 +1,10 @@
 <template>
   <div class="nav-menu">
     <button @click="selectFolder('kabirrazi')" class="btn btn-primary m-2">Arrazi</button>
-    <button @click="selectFolder('jalalain')" class="btn btn-secondary m-2">Jalalain</button>
     <button @click="selectFolder('ibnukatsir')" class="btn btn-success m-2">Ibn Katsir</button>
+    <button @click="selectFolder('jalalain')" class="btn btn-secondary m-2">Jalalain</button>
     <button @click="selectFolder('qurthubi')" class="btn btn-info m-2">Qurthubi</button>
+    <button @click="selectFolder('tabari')" class="btn btn-success m-2">Attabari</button>
   </div>
 </template>
 
