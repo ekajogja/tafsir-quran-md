@@ -29,3 +29,6 @@ logs/
 
 # Local development files
 *.local
+
+# PM2
+ecosystem.config.js
